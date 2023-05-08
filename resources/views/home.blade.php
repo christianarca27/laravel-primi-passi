@@ -10,5 +10,13 @@
     <h1>Homepage</h1>
 
     <p>Hello World!</p>
+
+    <p>Benvenuto {{ $name }}  {{ $lastname }},</p>
+
+    @if($age >= 18)
+    <p>sei maggiorenne</p>
+    @else
+    <p>sei minorenne</p>
+    @endif
 </body>
 </html>
