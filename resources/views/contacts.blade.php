@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel - Primi passi</title>
+    <title>About Us</title>
 
     {{-- Bootstrap --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
@@ -39,17 +39,7 @@
     </header>
 
     <main>
-        <h1>Homepage</h1>
-
-        <p>Hello World!</p>
-
-        <p>Benvenuto {{ $name }} {{ $lastname }},</p>
-
-        @if ($age >= 18)
-            <p>sei maggiorenne</p>
-        @else
-            <p>sei minorenne</p>
-        @endif
+        <h1>Contacts</h1>
     </main>
 
     {{-- Bootstrap --}}
